@@ -7,6 +7,8 @@ module.exports =
       "-rlpt"
       "--compress"
       "--omit-dir-times"
+      "--no-p"
+      "--chmod=Du=rwx,Do=rx,Fu=rw,Fo=r"
       # "--delete"
       # "--dry-run"
     ]
